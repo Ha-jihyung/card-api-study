@@ -20,3 +20,16 @@ window.addEventListener("load", function () {
     });
 });
 ```
+
+## 1.2 두 줄 이상 말 줄임
+
+```css
+선택자 {
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  line-height: 1.5;
+  max-height: calc(1.5em * 3);
+}
+```
