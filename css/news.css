@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.wrap {
+  width: 100%;
+}
+
 #news-container {
   display: flex;
   flex-wrap: wrap;
